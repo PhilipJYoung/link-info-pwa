@@ -36,3 +36,15 @@ button {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none; /* Prevent the tooltip from interfering with mouse events */
+  z-index: 9999;
+  display: none; /* Hidden by default */
+  white-space: pre-wrap;
